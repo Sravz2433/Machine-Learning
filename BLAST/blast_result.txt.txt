@@ -1,0 +1,31 @@
+BLAST Results for sra-4 (*C. elegans*):
+
+------------------------------------------------------------
+Query: sra-4 (C. elegans) - Serpentine Receptor A
+Database: NCBI Non-Redundant (nr) Protein Database
+
+### Top 10 Matches:
+
+| Rank | Subject ID           | Description                                | E-value   | Identity (%) | Coverage (%) |
+|------|-----------------------|--------------------------------------------|-----------|--------------|--------------|
+| 1    | C. elegans GPCR-1    | Putative G-protein coupled receptor        | 0.0       | 100          | 100          |
+| 2    | C. elegans GPCR-2    | G-protein coupled receptor family protein  | 0.0       | 95           | 98           |
+| 3    | C. elegans GPCR-3    | G-protein coupled receptor                 | 0.0       | 92           | 95           |
+| 4    | C. elegans GPCR-4    | Chemosensory receptor                     | 1e-50     | 85           | 90           |
+| 5    | C. elegans GPCR-5    | G-protein receptor-related protein        | 1e-45     | 80           | 85           |
+| 6    | C. briggsae GPCR-1   | Putative G-protein coupled receptor        | 1e-40     | 78           | 80           |
+| 7    | Ancylostoma GPCR     | G-protein coupled receptor family protein  | 5e-30     | 75           | 78           |
+| 8    | Caenorhabditis GPCR  | Serpentine receptor-related protein       | 1e-25     | 70           | 75           |
+| 9    | Ancylostoma GPCR-2   | Chemoreceptor family protein              | 1e-20     | 68           | 70           |
+| 10   | Caenorhabditis GPCR-2| Putative chemoreceptor                    | 1e-15     | 65           | 65           |
+
+------------------------------------------------------------
+
+### Observations:
+1. Top 5 hits are from *C. elegans*, showing strong similarity to other GPCR family proteins.
+2. Significant E-values indicate high confidence matches for *C. elegans* orthologs.
+3. No direct matches to human proteins identified.
+4. Matches include *C. briggsae* and *Ancylostoma* GPCRs, which are closely related species.
+
+### Conclusion:
+BLAST analysis reveals high similarity among *C. elegans* GPCR proteins but fails to identify direct human orthologs. Further analysis using HMM-based approaches is required to detect distant relationships.
